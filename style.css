@@ -4,10 +4,12 @@
     font-size: 20px
 }
 .navbar {
-    width: 100vw;
+    width: auto;
     background-color: #59D9A1;
-    padding-left: 30px;
+    padding-left: 15px;
     padding-right: 10px;
+    display: flex; 
+    justify-content: space-between;
 }
   
 .logo {
@@ -75,6 +77,26 @@ footer {
     width: 100%;
     padding: 1rem;
     background-color: #59D9A1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+.navbar .logo{
+    display: flex;
+    justify-content: baseline;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: end;
+}
+.flex-main{
+    display: flex;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
